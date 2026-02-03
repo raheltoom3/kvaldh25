@@ -22,4 +22,16 @@ print(sonad2[3])
 print(len(sonad2[3]))
 print(len(sonad2)) #sõnu lauses kokku
 sonapikkused2=[len(sona) for sona in sonad1]
+=======
+#Leia T-testi abil, kas nende lausete sõnade keskmine pikkus erineb üldistatavalt
+sonad1=lause1.split()
+print(sonad1)
+print(sonad1[3])
+print(len("tere"))
+#Kuva sõna nr 3 tähtede arv
+print(len(sonad1[3]))
+print(len(sonad1)) #Sõnu lauses kokku
+sonapikkused1=[len(sona) for sona in sonad1]
+print(sonapikkused1)
+>>>>>>> origin/main
 
