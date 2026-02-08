@@ -37,3 +37,8 @@ cm = sms.CompareMeans(
 
 print(cm.tconfint_diff(usevar='unequal'))
 
+
+#Selle andmestiku põhjal olen 95% kindel, et mehed on keskmiselt umbes 9,7–18,3 cm pikemad kui naised
+
+#Erinevus on statistiliselt oluline, sest mehed on igal juhul pikemad.
+
